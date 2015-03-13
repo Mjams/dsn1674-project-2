@@ -116,7 +116,6 @@ p{
 
 .dragon{
   background-color: #e4c22a;
-  padding: 1em;
   margin: 0;
 }
 
@@ -124,6 +123,7 @@ h2{
   text-align: center;
   font-size: 2em;
   margin: 0;
+  padding: 1em;
 }
 
 .img{
@@ -135,7 +135,7 @@ h2{
   font-style: italic;
   font-size: 0.80em;
   text-align: center;
-  padding-top: 1em;
+  padding: 1em;
   margin: 0;
 }
 
