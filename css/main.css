@@ -1,3 +1,8 @@
+/* colours
+dark grey black: #222222
+yellow: #e4c22a
+red: #2b8151b
+*/
 
 html {
   box-sizing: border-box;
@@ -11,24 +16,72 @@ html {
 
 body{
   margin: 0;
+
 }
 
 header{
   background-color: red;
-  padding: 1em;
+  padding: 2em;
+  text-align: center;
 
 }
 
 .chars{
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
+  margin: 0;
+  padding-top: 0.75em;
+  text-shadow: 0 2px 5px black;
+  position: absolute;
+  top: 0.5em;
+  width: 100%;
+  left: 0;
 }
 
 h1{
   color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  text-shadow: 0 2px 5px black;
+  position: absolute;
+  top: 4em;
+  width: 100%;
+  left: 0;
+
 }
 
 .medal{
-  width: 30%;
+  width: 100px;
+}
+
+nav ol{
+  padding: 1em;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+nav a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+li:hover{
+  background-color: black;
+}
+
+nav li{
+text-decoration: none;
+list-style-type: none;
+padding: 1.25em;
+width: 50%;
+float: left;
+background-color: #222222;
+margin: 0;
+border: 1px solid black;
 }
